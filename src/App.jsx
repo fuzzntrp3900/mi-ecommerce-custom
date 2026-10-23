@@ -6,6 +6,7 @@ function App() {
 
   return (
     <> 
+      <h1>Mi primer proyecto React</h1>
       <CartWidget />
     </>
   )
