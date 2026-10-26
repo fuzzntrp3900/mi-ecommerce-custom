@@ -1,3 +1,9 @@
-.item-list-container {
-    color: #5f3434;
+h1{
+    padding: 5px;
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    color: #050504;
 }
