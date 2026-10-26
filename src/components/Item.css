@@ -1,0 +1,37 @@
+.item .card{
+
+    padding: 10px;
+    display: absolute;
+    background-color: #fcf976;
+    border-radius: 12px;
+}
+.card-header {
+  position: relative; /* Permite posicionar la estrella de forma absoluta dentro de la cabecera */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 15px;
+}
+.card-title {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}
+.card-icon {
+  position: absolute; /* Saca la estrella del flujo para que no empuje el título */
+  right: 15px; /* La fija a la derecha */
+  top: 50%;
+  transform: translateY(-50%); /* La centra verticalmente a la perfección */
+}
+.item .card .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item .card .card-body .card-buttons{
+    display: flex;
+    gap: 10px;
+}
